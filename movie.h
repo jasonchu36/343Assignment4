@@ -28,7 +28,7 @@ class Movie
         bool addStock(int);
         bool subtractStock(int);
 
-    private:
+    protected:
         int stock;
         int releaseYear;
         char movieCode;
