@@ -17,6 +17,7 @@ using namespace std;
 class Drama:public Movie {
 public:
    Drama(char genre);
+   ~Drama();
    void setData(ifstream& f);
    
     bool operator== (const Movie &compare);
