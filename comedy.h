@@ -21,9 +21,6 @@ public:
 
    //Constructor to set default values
    Comedy(int stock, std::string title, std::string director, int releaseYear);
-
-   //Returns a string representation of the Comedy
-   std::string toString();
 };
 
 #endif //ASSIGNMENT4_COMEDY_H
